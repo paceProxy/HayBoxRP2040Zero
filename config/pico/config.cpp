@@ -16,10 +16,10 @@
 Config config = default_config;
 
 GpioButtonMapping button_mappings[] = {
-    {BTN_LF1,  3 },
-    { BTN_LF2, 2 },
-    { BTN_LF3, 1 },
-    { BTN_LF4, 0 },
+    {BTN_LF1,  0 },
+    { BTN_LF2, 1 },
+    { BTN_LF3, 2 },
+    { BTN_LF4, 3 },
 
     { BTN_LT1, 5 },
     { BTN_LT2, 6 },
