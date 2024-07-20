@@ -47,7 +47,7 @@ const size_t button_count = sizeof(button_mappings) / sizeof(GpioButtonMapping);
 DebouncedGpioButtonInput<button_count> gpio_input(button_mappings);
 
 const Pinout pinout = {
-    .joybus_data = -1,
+    .joybus_data = 20,
     .mux = -1,
     .nunchuk_detect = -1,
     .nunchuk_sda = -1,
