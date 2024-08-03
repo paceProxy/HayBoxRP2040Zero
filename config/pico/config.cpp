@@ -16,29 +16,29 @@
 Config config = default_config;
 
 GpioButtonMapping button_mappings[] = {
-    {BTN_LF1,  0 },
-    { BTN_LF2, 1 },
-    { BTN_LF3, 2 },
-    { BTN_LF4, 3 },
+    {BTN_LF1,  1 },
+    { BTN_LF2, 2 },
+    { BTN_LF3, 3 },
+    { BTN_LF4, 4 },
 
-    { BTN_LT1, 5 },
-    { BTN_LT2, 6 },
+    { BTN_LT1, 8 },
+    { BTN_LT2, 9 },
 
-    { BTN_MB1, 4 },
+    { BTN_MB1, 0 },
 
-    { BTN_RT1, 9},
-    { BTN_RT2, 7},
-    { BTN_RT3, 8},
-    { BTN_RT4, 11},
-    { BTN_RT5, 10},
+    { BTN_RT1, 12},
+    { BTN_RT2, 11},
+    { BTN_RT3, 10},
+    { BTN_RT4, 13},
+    { BTN_RT5, 14},
 
-    { BTN_RF1, 12},
-    { BTN_RF2, 13},
-    { BTN_RF3, 15},
-    { BTN_RF4, 14},
+    { BTN_RF1, 6},
+    { BTN_RF2, 7},
+    { BTN_RF3, 27},
+    { BTN_RF4, 26},
 
-    { BTN_RF5, 26},
-    { BTN_RF6, 27},
+    { BTN_RF5, 5},
+    { BTN_RF6, 15},
     { BTN_RF7, 28},
     { BTN_RF8, 29},
 };
